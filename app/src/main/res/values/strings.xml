@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SmartUp</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">Bestätigen</string>
+    <string name="hint_question">Hier Frage eingeben</string>
+    <string name="hint_answer">Hier Antwort eingeben (2–3 Stichwörter getrennt mit \u0022,\u0022)</string>
+    <string name="delete">Löschen</string>
+    <string name="alarm">Weckzeit</string>
+    <string name="question">Fragen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="timer_description">Stelle hier deine gewünschte Weckzeit ein.</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="speech_hint">Sage jetzt deine Antwort</string>
+</resources>

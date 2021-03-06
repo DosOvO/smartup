@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants"
+    android:background="@android:color/transparent"
+    android:cacheColorHint="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp">
+
+
+        <TextView
+            android:id="@+id/firstLine"
+            android:layout_width="158dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:text="Example application"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/clock_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="55dp"
+            android:checked="false"
+            android:textColorLink="@android:color/holo_orange_dark" />
+
+        <ImageView
+            android:id="@+id/menu_overflow"
+            android:layout_width="34dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top|right"
+            android:layout_marginEnd="1dp"
+            android:clickable="true"
+            android:padding="6dp"
+            android:scaleType="center"
+            android:src="@drawable/overflow" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/card_background_selector"-->
+        <!--android:descendantFocusability="afterDescendants"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:paddingRight="15dp"-->
+        <!--android:paddingTop="15dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/secondLine1"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="26dip"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="Description"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--<Switch-->
+            <!--android:id="@+id/clock_switch1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginEnd="66dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/firstLine1"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@id/secondLine"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignWithParentIfMissing="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text="Example application"-->
+            <!--android:textSize="16sp" />-->
+
+    <!--</LinearLayout>-->
+</FrameLayout>
